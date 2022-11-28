@@ -1,0 +1,36 @@
+.primitives,
+.component {
+  display: flex;
+  gap: 1em;
+  flex: 1;
+}
+
+.primitives {
+  height: 90vh;
+  flex-direction: column;
+}
+
+.state {
+  flex: 1;
+  transition: background-color 0.1s;
+  position: relative;
+}
+
+.state::before {
+  position: absolute;
+  content: "click anywhere";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #aaa;
+  inset: 0;
+  font-size: min(7vh, 7vw);
+  font-weight: bold;
+}
+
+.counter {
+  position: relative; /* for stacking context only */
+  display: block;
+  margin: 1em;
+}
