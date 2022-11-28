@@ -6,7 +6,7 @@ export default function Functions() {
   return (
     <main>
       <div className="d-flex gap-5 p-3">
-        <Link href="/primitives">Go to primitives</Link>
+        <a href="/primitives">Go to primitives</a>
 
         <button onClick={() => carouselData.get().slideto(2)}>
           Go to the second slide

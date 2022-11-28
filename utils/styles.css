@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.62;
+}
+
+/* legend,
+fieldset {
+  all: revert !important;
+} */
+
 .primitives,
 .component {
   display: flex;

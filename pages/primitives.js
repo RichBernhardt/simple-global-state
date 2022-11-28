@@ -1,4 +1,3 @@
-import styles from "../styles/primitives.module.css";
 import Link from "next/link";
 import Component from "../components-primitive/Component";
 import CounterA from "../components-primitive/CounterA";
@@ -10,9 +9,9 @@ import StateYB from "../components-primitive/StateYB";
 
 export default function Primitives() {
   return (
-    <main className={styles.primitives}>
+    <main className="primitives">
       <div>
-        <Link href="/functions">go to functions</Link>
+        <a href="/functions">go to functions</a>
       </div>
 
       <div>

@@ -1,4 +1,3 @@
-import styles from "../styles/primitives.module.css";
 import useGlobalState, { stateX } from "../utils/globalState";
 
 export default function StateXA({ children }) {
@@ -6,7 +5,7 @@ export default function StateXA({ children }) {
 
   return (
     <fieldset
-      className={styles.state}
+      className="state"
       onClick={() => {
         setState(Math.round(Math.random() * 360));
         setTimeout(() => setState(false), 200);

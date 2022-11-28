@@ -1,4 +1,3 @@
-import styles from "../styles/primitives.module.css";
 import useGlobalState, { counterA } from "../utils/globalState";
 
 export default function CounterA() {
@@ -6,7 +5,7 @@ export default function CounterA() {
 
   return (
     <button
-      className={styles.counter}
+      className="counter"
       onClick={(e) => {
         e.stopPropagation();
         setCounter(counter + 1);

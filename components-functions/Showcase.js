@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
+
 import { useEffect, useState, useCallback } from "react";
 import useGlobalState, { carouselData } from "../utils/globalState";
 
